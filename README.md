@@ -4,7 +4,7 @@ Provides a persistent "database" object for Vue applications.
 
 ## Installation
 
-1. Run `npm install --save @scriptpilot/mixin-vue-db` to install the package
+1. Run `npm install --save @scriptpilot/vue-mixin-database` to install the package
 2. Add the mixin to your Vue application:
 
    ```js
