@@ -9,7 +9,7 @@ Provides a persistent "database" object for Vue applications.
 
    ```js
    import Vue from 'vue'
-   import databaseMixin from '@scriptpilot/vue-mixin-db'
+   import databaseMixin from '@scriptpilot/vue-mixin-database'
    ...
    Vue.mixin(databaseMixin)
    ...
