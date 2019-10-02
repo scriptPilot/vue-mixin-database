@@ -18,6 +18,8 @@ Provides a persistent "database" object for Vue applications.
 
 ## Usage
 
+As a global mixin, you can you use the `$db(...)` function in any template or script.
+
 - To read: `$db('path')`
 - To write: `$db('path', 'value')`
 - To delete: `$db('path', null)`
