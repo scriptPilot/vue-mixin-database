@@ -8,10 +8,10 @@ Provides a persistent "database" object for Vue applications.
 2. Add the mixin to your Vue application:
 
    ```js
-   import vue from 'vue'
-   import dbMixin from '@scriptpilot/vue-mixin-db'
+   import Vue from 'vue'
+   import databaseMixin from '@scriptpilot/vue-mixin-db'
    ...
-   vue.mixin(dbMixin)
+   Vue.mixin(databaseMixin)
    ...
    new Vue(...)
    ```
