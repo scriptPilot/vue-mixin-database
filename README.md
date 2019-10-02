@@ -38,7 +38,7 @@ In the template:
 
 In the script:
 
-```js
+```html
 <script>
   export default {
     created() {
