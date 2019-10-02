@@ -22,17 +22,26 @@ Provides a persistent "database" object for Vue applications.
 - To write: `$db('path', 'value')`
 - To delete: `$db('path', null)`
 
-`path` to be used according https://lodash.com/docs/4.17.15#set.
+`path` can be simple or nested.
 
 ## Examples
+
+Nested path:
+
+```js
+$db('a[0].b.c', 123)
+console.log($db(a[0].b)) // => { c: 123 }
+```
 
 In the template:
 
 ```html
 <template>
-  <p>Value: {{$db('key')}}</p>
-  <p><button @click="$db('key', 'new value')">Update the Value</button></p>
-  <p><button @click="$db('key', null)">Delete the Value</button></p>
+  <div>
+    <p>Value: {{$db('key')}}</p>
+    <p><button @click="$db('key', 'new value')">Update the Value</button></p>
+    <p><button @click="$db('key', null)">Delete the Value</button></p>
+  </div>
 </template>
 ```
 
