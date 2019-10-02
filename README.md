@@ -18,9 +18,9 @@ Provides a persistent "database" object for Vue applications.
 
 ## Usage
 
-To read: `$db('path')`
-To write: `$db('path', 'value')`
-To delete: `$db('path', null)`
+- To read: `$db('path')`
+- To write: `$db('path', 'value')`
+- To delete: `$db('path', null)`
 
 `path` to be used according https://lodash.com/docs/4.17.15#set.
 
