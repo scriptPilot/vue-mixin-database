@@ -1,5 +1,7 @@
 # Database Mixin for Vue Applications
 
+> Deprecated. Use Vuex and Vuex-Persist instead.
+
 Provides a persistent "database" object for Vue applications.
 
 ## Installation
